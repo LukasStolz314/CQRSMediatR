@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1704.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSMediatR", "CQRSMediatR\CQRSMediatR.csproj", "{17D4C30D-9928-4609-8BDF-F33A690B3658}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSMediatR.API", "CQRSMediatR\CQRSMediatR.API.csproj", "{17D4C30D-9928-4609-8BDF-F33A690B3658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSMediatR.Application", "CQRSMediatR.Application\CQRSMediatR.Application.csproj", "{46875096-8214-481D-AEED-6E6585F76CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSMediatR.Domain", "CQRSMediatR.Domain\CQRSMediatR.Domain.csproj", "{A14D7479-62C0-4C5E-96A4-F9B57C6D782A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSMediatR.Infrastructure", "CQRSMediatR.Infrastructure\CQRSMediatR.Infrastructure.csproj", "{68B9F9A4-D4D6-4238-8427-4568EBD26077}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{17D4C30D-9928-4609-8BDF-F33A690B3658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17D4C30D-9928-4609-8BDF-F33A690B3658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17D4C30D-9928-4609-8BDF-F33A690B3658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46875096-8214-481D-AEED-6E6585F76CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46875096-8214-481D-AEED-6E6585F76CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46875096-8214-481D-AEED-6E6585F76CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46875096-8214-481D-AEED-6E6585F76CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14D7479-62C0-4C5E-96A4-F9B57C6D782A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14D7479-62C0-4C5E-96A4-F9B57C6D782A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14D7479-62C0-4C5E-96A4-F9B57C6D782A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14D7479-62C0-4C5E-96A4-F9B57C6D782A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B9F9A4-D4D6-4238-8427-4568EBD26077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B9F9A4-D4D6-4238-8427-4568EBD26077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B9F9A4-D4D6-4238-8427-4568EBD26077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B9F9A4-D4D6-4238-8427-4568EBD26077}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
